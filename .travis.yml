@@ -1,7 +1,7 @@
 env:
+  - FOO=foo
+  - BAR=bar
   global:
-    - FOO=foo
-    - BAR=bar
     - secure: $SECRET
     - secure: $SECRET2
 language: python
